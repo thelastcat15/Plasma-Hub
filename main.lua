@@ -10,7 +10,7 @@ _G.pokemon_PlaceId = 11847001844
 
 if ID == 537413528 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/firstavpf/Plasma-Hub/main/games/babft.lua'))();
-elseif table.find(BF, ID) then then
+elseif table.find(BF, ID) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/firstavpf/Plasma-Hub/main/games/bf.lua'))();
 elseif ID == _G.pokemon_PlaceId then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/firstavpf/Plasma-Hub/main/games/pokemon.lua'))();
